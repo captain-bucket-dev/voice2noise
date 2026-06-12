@@ -2,13 +2,8 @@
 A program that replaces your voice with JRPG-style beepboops!
 
 ## Current functionality:
-None
+Detects microphone input, uses minimum sensitivity to determine how many frames of the mp3 should be outputted. Retains memory of last chosen I/O sources, file, and sensitivity.
 
 ## Next Steps:
-1. Detect Microphone input
-2. Output sound file to speakers
-3. reroute sound file to linux virtual microphone
-  - create virtual mic setup for other Operating Systems
-4. create json file for customization
-5. create window for convenience
-6. compile into .exe
+1. Create virtual mic setup for each Operating System
+2. Internal Output Volume Slider
